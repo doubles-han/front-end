@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  color: white;
 }
 
 .App-header {
@@ -21,18 +11,24 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Div-Top {
+  background-color: rgb(30, 97, 42);
+  width: 500px;
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Div-BtmLft {
+  background-color: rgb(0, 183, 255);
+  width: 250px;
+  height: 300px;
+  align-items: left;
+}
+
+.Div-BtmRgt {
+  background-color: blue;
+  width: 250px;
+  height: 300px;
+  align-items: right;
 }
