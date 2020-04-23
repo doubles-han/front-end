@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  color: white;
 }
 
 .App-header {
@@ -16,6 +15,20 @@
 }
 
 .Tr {
+  align-items: center;
+}
+
+.Td {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.Td2 {
   background-color: rgb(0, 183, 255);
+  align-items: center;
+}
+
+.Td3 {
+  background-color: rgb(0, 255, 13);
   align-items: center;
 }
