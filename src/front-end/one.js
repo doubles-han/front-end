@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-function First() {
+function One() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,4 +21,4 @@ function First() {
   );
 }
 
-export default First;
+export default One;

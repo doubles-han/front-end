@@ -1,11 +1,12 @@
 import React from "react";
-import First from "./front-end/first.js";
+import One from "././front-end/one.js";
+import Two from "./front-end/two.js";
 
 function App() {
   return (
     <>
-      <First />
-      <First />
+      <One />
+      <Two />
     </>
   );
 }
